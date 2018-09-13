@@ -3,12 +3,13 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
+	"homepage": "https://achazu.github.io/React-weather-app",	
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack",
-		"start": "webpack-dev-server --env.dev --inline --hot"
+		"start": "webpack-dev-server --env.dev --inline --hot",
+		"deploy": "gh-pages -d build"
 	},
-	"homepage": "https://achazu.github.io/React-weather-app/",
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
