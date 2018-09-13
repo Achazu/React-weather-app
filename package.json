@@ -8,6 +8,7 @@
 		"build": "webpack",
 		"start": "webpack-dev-server --env.dev --inline --hot"
 	},
+	"homepage": "https://achazu.github.io/React-weather-app/",
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
